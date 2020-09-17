@@ -39,12 +39,16 @@ export const StyledNotification = styled.div`
         margin-top: -21%;
         transform: scale(0.95);
         z-index: 5;
+        height: 68px;
+        text-indent: -1000em;
     }
 
     :nth-child(5) {
         margin-top: -21%;
         transform: scale(0.9);
-        z-index: 1;
+        z-index: 1;        
+        height: 68px;
+        text-indent: -1000em;
     }
 
     :nth-child(n+6) {
