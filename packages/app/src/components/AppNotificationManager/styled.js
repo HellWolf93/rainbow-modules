@@ -9,6 +9,7 @@ export const StyledNotificationContainer = styled.div`
     flex-direction: column;
     overflow: hidden;
     height: 100%;
+    pointer-events: none;
 `;
 
 export const StyledNotification = styled.div`
@@ -18,6 +19,7 @@ export const StyledNotification = styled.div`
     transition-duration: 0.2s, 0.4s, 0.4s, 0s;
     transition-delay: 0s, 0.2s, 0s, 0s;
     margin-bottom: 0.5rem;
+    pointer-events: initial;
 
     :nth-child(2) {
         z-index: 9;
